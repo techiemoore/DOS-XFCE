@@ -1,0 +1,245 @@
+/*Thunar*/
+
+.thunar #main-menu {
+	background-color: #a5a5a5;
+	color: black
+	margin: 10px;
+	padding-left: 5px;
+}
+
+window.thunar #main-menu menuitem:hover {
+	background-color: black;
+}
+
+window.thunar #main-menu menuitem:hover label  {
+    background-color: black;
+		color: #a5a5a5;
+}
+
+window.thunar menuitem label{
+	background-color: #a5a5a5;
+	color: black;
+}
+
+window.thunar #main-menu menuitem window menu {
+	background-color: black;
+	color: #a5a5a5;
+}
+
+window.thunar #main-menu window menuitem:hover {
+	background-color: #a5a5a5;
+	color: black;
+}
+
+window.thunar #main-menu window menuitem:hover label {
+	background-color: #a5a5a5;
+	color: black;
+}
+
+window.thunar #main-menu window menuitem window menuitem:hover {
+	background-color: #a5a5a5;
+	color: black;
+}
+
+.thunar .view {
+	background-color: #000000;
+	border-right-width: 2px;
+	border-right-color: #a5a5a5;
+	border-right-style: solid;
+	color: #a5a5a5;
+	margin-top: 10px;
+	padding-right: 5px;
+}
+
+.thunar .frame {
+	margin: 15px;
+	border-width: 5px;
+	background-color: #000000;
+	border-color: #a5a5a5;
+  border-style: double;
+}
+
+.thunar toolbar entry  {
+	background-color: #000000;
+	color: #a5a5a5;
+	margin: 10px;
+	border: 2px;
+  border-color: #a5a5a5;
+	border-style: solid;
+}
+
+scrolledwindow treeview.view {
+	padding-left: 15px;
+}
+
+window.thunar paned scrolledwindow.frame {
+	border-width: 5px;
+	border-color: #a5a5a5;
+	border-style: double;
+}
+
+scrolledwindow treeview.view:selected {
+background-color: #a5a5a5;
+color: #000000;
+}
+
+/*thunar sidepane*/
+
+window.thunar paned > scrolledwindow treeview.view:selected {
+background-color: #a5a5a5;
+color: #000000;
+}
+
+window.thunar paned > scrolledwindow.frame {
+	margin-bottom: 50px;
+	padding-top: 20px;
+
+}
+
+/*whiskermenu*/
+
+#whiskermenu-window scrolledwindow button image {
+	opacity: 0;
+}
+
+#whiskermenu-window {
+	color: #a5a5a5;
+	background-color: #000000;
+	border-width: 12px;
+	border-color: #a5a5a5;
+	border-style: double;
+	font-style: normal
+}
+
+/* Make sidebar buttons match */
+#whiskermenu-window button {
+	color: #000000;
+	background-color: #a5a5a5;
+  border-width: 4;
+	padding: 5px;
+	margin: 10px;
+}
+
+#whiskermenu-window button label {
+	background-color: #a5a5a5
+}
+
+#whiskermenu-window button:hover {
+	border-width: 4;
+	border-color: #a5a5a5;
+    color: #000000;
+		background-color: #a5a5a5;
+		box-shadow: none
+}
+
+#whiskermenu-window button:checked {
+    background-color: black;
+		color: #a5a5a5;
+		border-width: 4;
+		border-color: #a5a5a5;
+		box-shadow: none
+}
+
+#whiskermenu-window button:checked label {
+    background-color: black;
+		color: #a5a5a5;
+}
+
+/* Menu border */
+#whiskermenu-window border {
+	margin: 5px;
+	padding: 5px;
+    border-width: 5;
+/*	border-radius: 12px; */
+/*	padding: 4px; */
+	border-color: #a5a5a5;
+	border-style: double;
+}
+
+/* Menu search box */
+#whiskermenu-window entry {
+    background-color: black;
+		border-color: #a5a5a5;
+		border-width: 4;
+		color: #a5a5a5
+}
+
+#whiskermenu-window widget image {
+	background-color: #a5a5a5;
+}
+
+#whiskermenu-window .frame {
+	padding: 5px;
+	padding-top: 20px;
+ border-width: 2;
+ border-color: #a5a5a5;
+ border-style: solid;
+}
+
+.xfce4-panel .tasklist .toggle {
+	background-color: black;
+	color: #a5a5a5;
+	border-width: 2px;
+	border-color: #a5a5a5;
+	margin: 7px;
+	margin-top:10px;
+	margin-left: 3px;
+}
+
+.xfce4-panel .tasklist button:checked {
+	background-color: #a5a5a5;
+	color: black;
+}
+
+.tasklist image {
+	opacity: 0;
+	margin-left: -20;
+}
+
+#whiskermenu-button {
+	border-width: 2px;
+	border-color: #a5a5a5;
+	border-style: solid;
+	margin: 7px;
+	margin-top:10px;
+}
+
+.xfce4-panel #clock-button {
+	border-width: 2px;
+	border-color: #a5a5a5;
+	border-style: solid;
+	margin-bottom: 7px;
+	margin-top:10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.xfce4-panel   #xfce4-notification-plugin {
+	border-width: 2px;
+	border-color: #a5a5a5;
+	border-style: solid;
+	margin-bottom: 7px;
+	margin-top:10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+.xfce4-panel  #sn-button {
+	border-width: 2px;
+	border-color: #a5a5a5;
+	border-style: solid;
+	margin-bottom: 7px;
+	margin-top:10px;
+	margin-right: 10px;
+	padding: 5px;
+}
+
+ .xfce4-panel #pulseaudio-button {
+	 border-width: 2px;
+	 border-color: #a5a5a5;
+	 border-style: solid;
+	 margin-bottom: 7px;
+	 margin-top:10px;
+	 margin-right: 10px;
+	 padding: 5px;
+ }
